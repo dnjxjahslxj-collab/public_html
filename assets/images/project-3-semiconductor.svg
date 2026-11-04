@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07192A" />
+      <stop offset="50%" stop-color="#12283E" />
+      <stop offset="100%" stop-color="#193754" />
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E4E72" />
+      <stop offset="100%" stop-color="#102A43" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad3)" />
+
+  <!-- Microchip & Circuit Visual -->
+  <g transform="translate(400, 210)">
+    <!-- Circuit lines -->
+    <path d="M -180 -80 H -110 V -40 H -80" stroke="#48CAE4" stroke-width="2" fill="none" opacity="0.6" />
+    <circle cx="-180" cy="-80" r="4" fill="#48CAE4" />
+
+    <path d="M 180 -80 H 110 V -40 H 80" stroke="#48CAE4" stroke-width="2" fill="none" opacity="0.6" />
+    <circle cx="180" cy="-80" r="4" fill="#48CAE4" />
+
+    <path d="M -180 80 H -110 V 40 H -80" stroke="#48CAE4" stroke-width="2" fill="none" opacity="0.6" />
+    <circle cx="-180" cy="80" r="4" fill="#48CAE4" />
+
+    <path d="M 180 80 H 110 V 40 H 80" stroke="#48CAE4" stroke-width="2" fill="none" opacity="0.6" />
+    <circle cx="180" cy="80" r="4" fill="#48CAE4" />
+
+    <!-- Center Chip Box -->
+    <rect x="-80" y="-80" width="160" height="160" rx="16" fill="url(#chipGrad)" stroke="#48CAE4" stroke-width="3" />
+    
+    <!-- Chip Pins -->
+    <g fill="#62B0E8">
+      <rect x="-60" y="-90" width="8" height="10" />
+      <rect x="-35" y="-90" width="8" height="10" />
+      <rect x="-10" y="-90" width="8" height="10" />
+      <rect x="15" y="-90" width="8" height="10" />
+      <rect x="40" y="-90" width="8" height="10" />
+
+      <rect x="-60" y="80" width="8" height="10" />
+      <rect x="-35" y="80" width="8" height="10" />
+      <rect x="-10" y="80" width="8" height="10" />
+      <rect x="15" y="80" width="8" height="10" />
+      <rect x="40" y="80" width="8" height="10" />
+    </g>
+
+    <!-- Inner Core & Logo -->
+    <rect x="-45" y="-45" width="90" height="90" rx="8" fill="#0B1F33" stroke="#2F6B9A" stroke-width="2" />
+    <text x="0" y="-6" fill="#FFFFFF" font-family="'Pretendard', sans-serif" font-size="12" font-weight="700" text-anchor="middle">MEMORY</text>
+    <text x="0" y="14" fill="#48CAE4" font-family="'Pretendard', sans-serif" font-size="14" font-weight="800" text-anchor="middle">SEMICON</text>
+    <text x="0" y="30" fill="#829AB1" font-family="'Pretendard', sans-serif" font-size="10" text-anchor="middle">HBM &amp; DRAM</text>
+  </g>
+
+  <!-- Tag & Text -->
+  <rect x="80" y="45" width="180" height="32" rx="16" fill="rgba(72,202,228,0.15)" stroke="rgba(72,202,228,0.4)" stroke-width="1" />
+  <text x="170" y="66" fill="#48CAE4" font-family="'Pretendard', sans-serif" font-size="13" font-weight="600" text-anchor="middle">INDUSTRY ANALYSIS</text>
+
+  <text x="80" y="405" fill="#FFFFFF" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700">한국 메모리 반도체 산업 투자 전망 보고서</text>
+  <text x="80" y="428" fill="#829AB1" font-family="'Pretendard', sans-serif" font-size="13">삼성전자 &amp; SK하이닉스 비교 분석 · 산업 사이클 및 성장동력·투자위험 검토</text>
+</svg>
+

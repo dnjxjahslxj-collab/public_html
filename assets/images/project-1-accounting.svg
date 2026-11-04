@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F33" />
+      <stop offset="50%" stop-color="#102A43" />
+      <stop offset="100%" stop-color="#1A365D" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#48CAE4" />
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2F6B9A" />
+      <stop offset="100%" stop-color="#00B4D8" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad1)" />
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="80" y1="100" x2="720" y2="100" />
+    <line x1="80" y1="180" x2="720" y2="180" />
+    <line x1="80" y1="260" x2="720" y2="260" />
+    <line x1="80" y1="340" x2="720" y2="340" />
+    <line x1="160" y1="60" x2="160" y2="380" />
+    <line x1="320" y1="60" x2="320" y2="380" />
+    <line x1="480" y1="60" x2="480" y2="380" />
+    <line x1="640" y1="60" x2="640" y2="380" />
+  </g>
+
+  <!-- Financial Chart Bars (Comparison) -->
+  <g transform="translate(140, 120)">
+    <!-- Group 1 -->
+    <rect x="40" y="110" width="36" height="110" rx="4" fill="#2F6B9A" opacity="0.85" />
+    <rect x="84" y="70" width="36" height="150" rx="4" fill="url(#cyanGrad)" />
+    <!-- Group 2 -->
+    <rect x="180" y="130" width="36" height="90" rx="4" fill="#2F6B9A" opacity="0.85" />
+    <rect x="224" y="50" width="36" height="170" rx="4" fill="url(#cyanGrad)" />
+    <!-- Group 3 -->
+    <rect x="320" y="90" width="36" height="130" rx="4" fill="#2F6B9A" opacity="0.85" />
+    <rect x="364" y="30" width="36" height="190" rx="4" fill="url(#cyanGrad)" />
+
+    <!-- Trend Line -->
+    <path d="M 60 100 Q 150 40 242 45 T 382 25" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-dasharray="6,4" />
+    <circle cx="60" cy="100" r="5" fill="#FFFFFF" />
+    <circle cx="242" cy="45" r="5" fill="#FFFFFF" />
+    <circle cx="382" cy="25" r="6" fill="#00B4D8" stroke="#FFFFFF" stroke-width="2" />
+  </g>
+
+  <!-- Badge & Label -->
+  <rect x="80" y="45" width="170" height="32" rx="16" fill="rgba(0,180,216,0.15)" stroke="rgba(0,180,216,0.4)" stroke-width="1" />
+  <text x="165" y="66" fill="#48CAE4" font-family="'Pretendard', sans-serif" font-size="13" font-weight="600" text-anchor="middle">FINANCIAL ANALYSIS</text>
+
+  <text x="80" y="405" fill="#FFFFFF" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700">농심 vs 오뚜기 기업가치 및 재무 비교 분석</text>
+  <text x="80" y="428" fill="#829AB1" font-family="'Pretendard', sans-serif" font-size="13">재무비율 분석 · PER/PBR · DDM/FCF 가치평가 모델링</text>
+</svg>
+

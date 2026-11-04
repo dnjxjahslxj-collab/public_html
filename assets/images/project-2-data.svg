@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081826" />
+      <stop offset="50%" stop-color="#0F2D4A" />
+      <stop offset="100%" stop-color="#1B3A57" />
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BEC9" />
+      <stop offset="100%" stop-color="#0E7C86" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad2)" />
+
+  <!-- Decision Tree / Random Forest Visual -->
+  <g transform="translate(180, 80)">
+    <!-- Root Node -->
+    <line x1="220" y1="40" x2="120" y2="120" stroke="rgba(56,190,201,0.5)" stroke-width="2" />
+    <line x1="220" y1="40" x2="320" y2="120" stroke="rgba(56,190,201,0.5)" stroke-width="2" />
+
+    <!-- Level 1 to 2 -->
+    <line x1="120" y1="120" x2="60" y2="200" stroke="rgba(56,190,201,0.4)" stroke-width="2" />
+    <line x1="120" y1="120" x2="180" y2="200" stroke="rgba(56,190,201,0.4)" stroke-width="2" />
+    <line x1="320" y1="120" x2="260" y2="200" stroke="rgba(56,190,201,0.4)" stroke-width="2" />
+    <line x1="320" y1="120" x2="380" y2="200" stroke="rgba(56,190,201,0.4)" stroke-width="2" />
+
+    <!-- Nodes -->
+    <circle cx="220" cy="40" r="18" fill="url(#nodeGrad)" stroke="#FFFFFF" stroke-width="2" />
+    <text x="220" y="44" fill="#FFFFFF" font-family="'Pretendard', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Root</text>
+
+    <circle cx="120" cy="120" r="14" fill="#1A4A6E" stroke="#38BEC9" stroke-width="2" />
+    <circle cx="320" cy="120" r="14" fill="#1A4A6E" stroke="#38BEC9" stroke-width="2" />
+
+    <circle cx="60" cy="200" r="12" fill="#0E7C86" />
+    <circle cx="180" cy="200" r="12" fill="#38BEC9" />
+    <circle cx="260" cy="200" r="12" fill="#38BEC9" />
+    <circle cx="380" cy="200" r="12" fill="#0E7C86" />
+
+    <!-- Forest Trees in Background -->
+    <g opacity="0.3" transform="translate(-100, 20)">
+      <circle cx="60" cy="70" r="8" fill="#38BEC9" />
+      <line x1="60" y1="70" x2="20" y2="130" stroke="#38BEC9" stroke-width="1" />
+      <line x1="60" y1="70" x2="100" y2="130" stroke="#38BEC9" stroke-width="1" />
+    </g>
+    <g opacity="0.3" transform="translate(380, 20)">
+      <circle cx="60" cy="70" r="8" fill="#38BEC9" />
+      <line x1="60" y1="70" x2="20" y2="130" stroke="#38BEC9" stroke-width="1" />
+      <line x1="60" y1="70" x2="100" y2="130" stroke="#38BEC9" stroke-width="1" />
+    </g>
+  </g>
+
+  <!-- Tag & Text -->
+  <rect x="80" y="45" width="150" height="32" rx="16" fill="rgba(56,190,201,0.15)" stroke="rgba(56,190,201,0.4)" stroke-width="1" />
+  <text x="155" y="66" fill="#38BEC9" font-family="'Pretendard', sans-serif" font-size="13" font-weight="600" text-anchor="middle">DATA SCIENCE</text>
+
+  <text x="80" y="405" fill="#FFFFFF" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700">랜덤포레스트 기반 고성과 직원 데이터 분석</text>
+  <text x="80" y="428" fill="#829AB1" font-family="'Pretendard', sans-serif" font-size="13">직원 10,000명 표본 머신러닝 모델링 · R² 0.031 성능 및 윤리적 한계 검토</text>
+</svg>
+

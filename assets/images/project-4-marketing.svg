@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1E2E" />
+      <stop offset="50%" stop-color="#142B3F" />
+      <stop offset="100%" stop-color="#1C3F5E" />
+    </linearGradient>
+    <linearGradient id="targetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#54D2D2" />
+      <stop offset="100%" stop-color="#2F6B9A" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad4)" />
+
+  <!-- 2x2 Positioning Map Matrix -->
+  <g transform="translate(400, 200)">
+    <!-- Axes -->
+    <line x1="-160" y1="0" x2="160" y2="0" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+    <line x1="0" y1="-120" x2="0" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+    
+    <!-- Arrows -->
+    <polygon points="165,0 155,-5 155,5" fill="rgba(255,255,255,0.5)" />
+    <polygon points="0,-125 -5,-115 5,-115" fill="rgba(255,255,255,0.5)" />
+
+    <!-- Axis Labels -->
+    <text x="0" y="-135" fill="#9FB3C8" font-family="'Pretendard', sans-serif" font-size="11" text-anchor="middle">혁신성 / High Tech</text>
+    <text x="0" y="145" fill="#9FB3C8" font-family="'Pretendard', sans-serif" font-size="11" text-anchor="middle">전통적 가치 / Traditional</text>
+    <text x="175" y="4" fill="#9FB3C8" font-family="'Pretendard', sans-serif" font-size="11">구독형 생태계</text>
+    <text x="-175" y="4" fill="#9FB3C8" font-family="'Pretendard', sans-serif" font-size="11" text-anchor="end">단일 제품 판매</text>
+
+    <!-- Quadrant Elements (Netflix vs Kodak concept) -->
+    <!-- Brand A: Netflix (High Tech + Ecosystem) -->
+    <g transform="translate(80, -60)">
+      <circle cx="0" cy="0" r="28" fill="#E50914" opacity="0.85" />
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3,3" />
+      <text x="0" y="4" fill="#FFFFFF" font-family="'Pretendard', sans-serif" font-size="11" font-weight="700" text-anchor="middle">NETFLIX</text>
+    </g>
+
+    <!-- Brand B: Kodak (Traditional + Single product transition) -->
+    <g transform="translate(-80, 60)">
+      <circle cx="0" cy="0" r="28" fill="#F4B400" opacity="0.85" />
+      <text x="0" y="4" fill="#102A43" font-family="'Pretendard', sans-serif" font-size="11" font-weight="700" text-anchor="middle">KODAK</text>
+    </g>
+
+    <!-- Transition Arc -->
+    <path d="M -50 40 Q 0 0 50 -40" fill="none" stroke="#54D2D2" stroke-width="2" stroke-dasharray="5,5" />
+  </g>
+
+  <!-- Tag & Text -->
+  <rect x="80" y="45" width="200" height="32" rx="16" fill="rgba(84,210,210,0.15)" stroke="rgba(84,210,210,0.4)" stroke-width="1" />
+  <text x="180" y="66" fill="#54D2D2" font-family="'Pretendard', sans-serif" font-size="13" font-weight="600" text-anchor="middle">STRATEGIC MARKETING</text>
+
+  <text x="80" y="405" fill="#FFFFFF" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700">브랜드 포지셔닝 및 기업 사례 비교 분석</text>
+  <text x="80" y="428" fill="#829AB1" font-family="'Pretendard', sans-serif" font-size="13">Kodak &amp; Netflix 비교 · 마케팅 프레임워크 기반 시장 변화와 경쟁 전략 검토</text>
+</svg>
+
